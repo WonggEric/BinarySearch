@@ -1,25 +1,3 @@
-class Main {
-  public static void main(String[] args) {
-    Sketch main_tester = new Sketch();
-    main_tester.tester();
-  }
-}
-public class Item
-{
-  private int myCatNum, myInventory;
-  public Item(int nNum, int nInv)
-  {
-    myCatNum = nNum;
-    myInventory = nInv;
-  }
-  public int getCatNum() {
-    return myCatNum;
-  }
-  public int getInventory() {
-    return myInventory;
-  }
-}
-
 public class Sketch {
   //see Item.java for class definition
   private Item[] store =
